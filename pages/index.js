@@ -16,7 +16,7 @@ function HomePage(props) {
   );
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const client = await clientPromise;
   const meetups = await client.db('meetups').collection('meetups').find().toArray();
 
@@ -29,7 +29,6 @@ export async function getStaticProps() {
         id: meetup._id.toString(),
       })),
     },
-    revalidate: 1,
   };
 }
 
