@@ -2,7 +2,7 @@
 
 A NextJS project that I did while undertaking an online course called "React - The Complete Guide" from Udemy (https://www.udemy.com/course/react-the-complete-guide-incl-redux)
 
-Framework, Library, and database used include:
+Framework, Library, and Database used include:
 
 - NextJS
 - ReactJS
